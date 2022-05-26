@@ -1,0 +1,22 @@
+button {
+    padding: 5px 20px;
+    border-radius: 7px;
+    background-color: rgba(56, 14, 245, 0.575);
+    color: aliceblue;
+    font: inherit;
+    font-size: 1.25rem;
+    border: 1px solid rgba(52, 12, 228, 0.575);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.589);
+  }
+  
+  button:hover {
+    background-color: rgba(47, 74, 224, 0.575);
+    border: 1px solid rgba(106, 119, 238, 0.575);
+    color: rgb(205, 227, 247);
+  }
+  
+  @media (max-width: 720px) {
+    .button {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,24 @@
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 4rem;
+    font-size: 1.25rem;
+  }
+  
+  .nav li {
+    margin: 0;
+    margin-left: 2rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: rgb(248, 240, 231);
+  }
+  
+  .nav a:hover {
+      color: rgb(184, 182, 180);
+  } 
+  
