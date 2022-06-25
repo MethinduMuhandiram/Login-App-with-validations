@@ -1,0 +1,58 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 50px 40px 30px;
+  color: rgba(24, 35, 65, 0.904);
+}
+
+.register div {
+  margin-bottom: 20px;
+}
+
+.register label {
+  /* display: inline-block; */
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.register input {
+  /* display: inline-block;
+  float: right; */
+  width: 100%;
+  padding: 5px 0;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(198, 209, 243);
+  font-size: 1.25rem;
+}
+
+.register input:focus {
+  outline: none;
+  border-color: blue;
+  background: #dae0fb7c;
+}
+
+.action {
+  /* text-align: center; */
+  margin-top: 30px;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+@media (max-width: 720px) {
+  .register {
+    width: 100%;
+  }
+}
+
+.inValid input {
+  background-color: #f588491a;
+  border-color: rgb(236, 54, 8);
+}
+
+.error-message {
+  color: rgb(236, 54, 8);
+}

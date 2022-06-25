@@ -7,7 +7,10 @@ import "./Header.css";
 function Header(props) {
   return (
     <header className="header">
-      <h1>Login App</h1>
+      <h1>
+        <img src={"./icons8-login-66.png"} />
+        Login App
+      </h1>
       <Navigation
         onAuthentication={props.onAuthentication}
         onLogout={props.onLogout}

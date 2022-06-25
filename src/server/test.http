@@ -1,0 +1,7 @@
+POST http://localhost:5000/app/register
+Content-Type: application/json
+
+    firstName: John,
+    lastName : Wick,
+    email    : jo@mail.com,
+    password : jojo
